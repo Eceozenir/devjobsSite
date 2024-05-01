@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+}
+
+body{
+    background-color: #121721;
+    font-family: Kumbh Sans;
+    
+}
+
+.navPlace{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.form{
+    justify-content: space-between;
+}
+
+.icons{
+    position: absolute;
+    top: 46px;
+    left: 1163px;
+}
+
+.logo{
+    position: absolute;
+    top: 45px;
+    left: 165px;
+}
+
+.cards{
+    width: 350px;
+    height: 228px;
+    background-color: #19202D;
+    border-radius: 5px;
+    margin-top: 280px;
+    margin-left: 165px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.card{
+    width: 350px;
+    height: 228px;
+    background-color: #19202D;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.searchCard{
+    width: 1110px;
+    height: 80px;
+    background-color: #19202D;
+    position: absolute;
+    display: flex;
+    border-radius: 4px;
+    top: 121px;
+    left: 165px;
+}
+
+.searchicons{
+    width: 24px;
+    height: 24px;
+}
+
+.searchText{
+    color: #fff;
+}
+
+.searchBtn{
+    padding: 16px 35px 16px 35px;
+    background-color: #5964E0;
+    color: #fff;
+    text-decoration: none;
+    margin: 16px;
+    border-radius: 4px;
+
+}
+
+.appLogo{
+    position: absolute;
+    top: -25px;
+    left: 30px;
+}
+
+.timeText{
+    color: #6E8098;
+    padding-top: 40px;
+    padding-left: 12px;
+}
+
+.headerText{
+    color: #fff;
+    padding-top: 13px;
+    padding-left: 12px;
+}
+
+.scott{
+    color: #6E8098;
+    padding-top: 17px;
+    padding-left: 12px;
+}
+
+.placesText{
+    color: #5964E0;
+    padding-top: 44px;
+    padding-left: 12px;
+}
+
+
+
